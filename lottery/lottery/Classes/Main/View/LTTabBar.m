@@ -66,6 +66,10 @@
     
     _selectButton = button;
     
+    if([_delegate respondsToSelector:@selector(tabBar:didSelectIndex:)]){
+        [_delegate tabBar:self didSelectIndex:button.tag];
+    }
+    
 }
 
 //设置按钮的 位置 宽高

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */; };
+		04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */; };
+		04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
 		A47967151D65696D00F3620B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967141D65696D00F3620B /* main.m */; };
 		A47967181D65696D00F3620B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967171D65696D00F3620B /* AppDelegate.m */; };
 		A479671B1D65696D00F3620B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A479671A1D65696D00F3620B /* ViewController.m */; };
@@ -258,6 +261,9 @@
 		A47967081D65696C00F3620B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = cain;
 				TargetAttributes = {
@@ -303,11 +309,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A479671B1D65696D00F3620B /* ViewController.m in Sources */,
-				A4CFF1C51D65C380007A3C8E /* LTTabBarButton.m in Sources */,
+				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
-				A4CFF1BF1D65A4DF007A3C8E /* LTTabBarViewController.m in Sources */,
+				04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
-				A4CFF1C21D65A4FB007A3C8E /* LTTabBar.m in Sources */,
+				04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

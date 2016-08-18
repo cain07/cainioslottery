@@ -10,7 +10,7 @@
 
 #import "LTTabBar.h"
 
-@interface LTTabBarViewController ()
+@interface LTTabBarViewController()<LTTabBarDelegate>
 
 @end
 
@@ -24,10 +24,15 @@
     LTTabBar *tabBar = [[LTTabBar alloc] init];
     
     tabBar.frame = self.tabBar.frame;
+    tabBar.delegate = self;
     
     [self.view addSubview:tabBar];
     
     
+}
+
+-(void)tabBar:(LTTabBar *)tabBar didSelectIndex:(int)index{
+    self.selectedIndex = index;
 }
 
 
