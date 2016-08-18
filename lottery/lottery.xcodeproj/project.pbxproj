@@ -12,9 +12,6 @@
 		A479671B1D65696D00F3620B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A479671A1D65696D00F3620B /* ViewController.m */; };
 		A479671E1D65696D00F3620B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A479671C1D65696D00F3620B /* Main.storyboard */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
-		A4CFF1BF1D65A4DF007A3C8E /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */; };
-		A4CFF1C21D65A4FB007A3C8E /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */; };
-		A4CFF1C51D65C380007A3C8E /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
