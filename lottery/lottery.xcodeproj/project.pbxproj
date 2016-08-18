@@ -12,6 +12,9 @@
 		A479671B1D65696D00F3620B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A479671A1D65696D00F3620B /* ViewController.m */; };
 		A479671E1D65696D00F3620B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A479671C1D65696D00F3620B /* Main.storyboard */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
+		A4CFF1BF1D65A4DF007A3C8E /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */; };
+		A4CFF1C21D65A4FB007A3C8E /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */; };
+		A4CFF1C51D65C380007A3C8E /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,12 @@
 		A479671D1D65696D00F3620B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A479671F1D65696D00F3620B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47967241D65696D00F3620B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4CFF1BD1D65A4DF007A3C8E /* LTTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarViewController.h; sourceTree = "<group>"; };
+		A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarViewController.m; sourceTree = "<group>"; };
+		A4CFF1C01D65A4FB007A3C8E /* LTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBar.h; sourceTree = "<group>"; };
+		A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBar.m; sourceTree = "<group>"; };
+		A4CFF1C31D65C380007A3C8E /* LTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarButton.h; sourceTree = "<group>"; };
+		A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +202,8 @@
 		A4CFF1B91D659256007A3C8E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A4CFF1BD1D65A4DF007A3C8E /* LTTabBarViewController.h */,
+				A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,6 +218,10 @@
 		A4CFF1BB1D659256007A3C8E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4CFF1C01D65A4FB007A3C8E /* LTTabBar.h */,
+				A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */,
+				A4CFF1C31D65C380007A3C8E /* LTTabBarButton.h */,
+				A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,8 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A479671B1D65696D00F3620B /* ViewController.m in Sources */,
+				A4CFF1C51D65C380007A3C8E /* LTTabBarButton.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
+				A4CFF1BF1D65A4DF007A3C8E /* LTTabBarViewController.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
+				A4CFF1C21D65A4FB007A3C8E /* LTTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
