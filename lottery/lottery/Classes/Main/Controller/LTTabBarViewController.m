@@ -10,6 +10,8 @@
 
 #import "LTTabBar.h"
 
+#define ios7 [[UIDevice currentDevice].systemVersion floatValue]>=7.0
+
 @interface LTTabBarViewController()<LTTabBarDelegate>
 
 @end
@@ -27,21 +29,28 @@
     
     tabBar.frame = self.tabBar.frame;
     
-    
     [self.view addSubview:tabBar];
     
     NSString *imagename = nil;
     NSString *imagenamesel = nil;
     
     for (int i=0; i<self.childViewControllers.count; i++) {
-            
         imagename  = [NSString stringWithFormat:@"TabBar%d",i+1];
-            
         imagenamesel = [NSString stringWithFormat:@"TabBar%dSel",i+1];
-
-        
         [tabBar addTabBarButtonWithName:imagename imageNameHigh:imagenamesel];
     }
+    
+    UINavigationBar *bar = [UINavigationBar appearance];
+    
+    UIImage *navImage = nil;
+    
+    if(ios7){
+        navImage = [UIImage imageNamed:@"NavBar64"];
+    }else{
+        navImage = [UIImage imageNamed:@"NavBar"];
+    }
+    
+    [bar setBackgroundImage:navImage forBarMetrics:UIBarMetricsDefault];
     
     
 }

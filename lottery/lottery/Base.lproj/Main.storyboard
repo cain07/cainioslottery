@@ -188,24 +188,47 @@
             </objects>
             <point key="canvasLocation" x="-1695" y="1591.5"/>
         </scene>
-        <!--View Controller-->
+        <!--购彩大厅-->
         <scene sceneID="NBp-u3-NNd">
             <objects>
                 <viewController id="8XW-CO-6RD" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="s2q-47-i55"/>
-                        <viewControllerLayoutGuide type="bottom" id="ZhH-mK-Apt"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rZr-jZ-34v">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="cDC-gc-XV9"/>
+                    <navigationItem key="navigationItem" title="购彩大厅" id="cDC-gc-XV9">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="85t-EN-iDY">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1CG-ri-d7L">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="咨询" image="zixunBarFlat"/>
+                                <connections>
+                                    <segue destination="ZoK-mB-X5R" kind="push" id="XN9-aY-DFS"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WK5-AU-9Rm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1791" y="-1719"/>
+            <point key="canvasLocation" x="-1944" y="-1677"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DRa-GG-NLM">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="ZoK-mB-X5R" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1yv-6S-wZA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xg2-S2-vVI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jF9-n8-Nhx">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O5u-vp-Vmi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2wD-oJ-xea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1155" y="-1659"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="zixunBarFlat" width="13" height="11"/>
+    </resources>
 </document>
