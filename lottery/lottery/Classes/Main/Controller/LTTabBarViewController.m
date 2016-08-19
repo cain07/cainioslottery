@@ -23,15 +23,30 @@
     
     LTTabBar *tabBar = [[LTTabBar alloc] init];
     
-    tabBar.frame = self.tabBar.frame;
     tabBar.delegate = self;
     
+    tabBar.frame = self.tabBar.frame;
+    
+    
     [self.view addSubview:tabBar];
+    
+    NSString *imagename = nil;
+    NSString *imagenamesel = nil;
+    
+    for (int i=0; i<self.childViewControllers.count; i++) {
+            
+        imagename  = [NSString stringWithFormat:@"TabBar%d",i+1];
+            
+        imagenamesel = [NSString stringWithFormat:@"TabBar%dSel",i+1];
+
+        
+        [tabBar addTabBarButtonWithName:imagename imageNameHigh:imagenamesel];
+    }
     
     
 }
 
--(void)tabBar:(LTTabBar *)tabBar didSelectIndex:(int)index{
+-(void)tabBar:(LTTabBar *)tabBar didSelectIndex:(NSInteger)index{
     self.selectedIndex = index;
 }
 
