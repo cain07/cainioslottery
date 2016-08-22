@@ -29,7 +29,7 @@
         <!--Item-->
         <scene sceneID="uCG-ag-8d6">
             <objects>
-                <navigationController id="9O6-0g-mi8" sceneMemberID="viewController">
+                <navigationController id="9O6-0g-mi8" customClass="LTNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Y0z-0n-8xO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MDB-MW-Bta">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -111,7 +111,7 @@
             </objects>
             <point key="canvasLocation" x="-2680.5" y="-838.5"/>
         </scene>
-        <!--View Controller-->
+        <!--kaijiangxinxi-->
         <scene sceneID="fNZ-An-Qwp">
             <objects>
                 <viewController id="9Y2-vp-PM1" sceneMemberID="viewController">
@@ -124,11 +124,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.96971299245801224" green="1" blue="0.40378741919820171" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eDb-Eh-hel"/>
+                    <navigationItem key="navigationItem" title="kaijiangxinxi" id="eDb-Eh-hel"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdu-Tj-bx6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1677" y="-784.5"/>
+            <point key="canvasLocation" x="-1710" y="-838.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PzT-FZ-qLm">
@@ -141,15 +141,62 @@
                     <view key="view" contentMode="scaleToFill" id="QF8-P0-fRj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAc-Yp-cun">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="点击"/>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="284" y="225" width="46" height="23"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="lrO-j4-fB4" kind="push" id="opb-Tt-1Bb"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.92790864909965309" green="0.86367152929813562" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="BAc-Yp-cun"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="BAc-Yp-cun"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="9yA-nv-weN"/>
+                    <navigationItem key="navigationItem" id="9yA-nv-weN">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5fa-CP-Wth" customClass="LTTitleButton">
+                            <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="hemaigenda" image="YellowDownArrow"/>
+                        </button>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebw-eh-fcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1677" y="-46.5"/>
+            <point key="canvasLocation" x="-1824" y="37.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="ciH-gu-8hI">
+            <objects>
+                <viewController id="lrO-j4-fB4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n2I-zh-dZh"/>
+                        <viewControllerLayoutGuide type="bottom" id="HtU-pF-dcG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RPR-eF-AWy">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qZf-X3-1wb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xjj-Qe-523" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894" y="-46.5"/>
+        </scene>
+        <!--xinyunguangchang-->
         <scene sceneID="Ya8-Qb-2O0">
             <objects>
                 <viewController id="RrV-FI-ZZ7" sceneMemberID="viewController">
@@ -162,13 +209,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.96851668927901957" blue="0.82215180099602181" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="DKR-hh-fB5"/>
+                    <navigationItem key="navigationItem" title="xinyunguangchang" id="DKR-hh-fB5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4VZ-LC-ebo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1743" y="763.5"/>
+            <point key="canvasLocation" x="-1770" y="763.5"/>
         </scene>
-        <!--View Controller-->
+        <!--wode-->
         <scene sceneID="9fH-s1-V2s">
             <objects>
                 <viewController id="IPM-CS-LQ9" sceneMemberID="viewController">
@@ -182,11 +229,11 @@
                         <color key="backgroundColor" red="0.99346536207970526" green="0.80118995521466096" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.94168243127924212" green="0.66239955835515096" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Evb-D9-Gxs"/>
+                    <navigationItem key="navigationItem" title="wode" id="Evb-D9-Gxs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hgi-t0-scY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1695" y="1591.5"/>
+            <point key="canvasLocation" x="-1770" y="1579.5"/>
         </scene>
         <!--购彩大厅-->
         <scene sceneID="NBp-u3-NNd">
@@ -230,6 +277,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="YellowDownArrow" width="16" height="16"/>
         <image name="zixunBarFlat" width="13" height="11"/>
     </resources>
 </document>

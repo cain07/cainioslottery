@@ -15,10 +15,12 @@
 		A479671B1D65696D00F3620B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A479671A1D65696D00F3620B /* ViewController.m */; };
 		A479671E1D65696D00F3620B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A479671C1D65696D00F3620B /* Main.storyboard */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
+		A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */; };
+		A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ED177A1D6AF0ED0041EF99 /* LTTitleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A4278B091D671938009CDABE /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "lottery-Prefix.pch"; path = "../../../lottery-Prefix.pch"; sourceTree = "<group>"; };
+		A4278B091D671938009CDABE /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A47967101D65696D00F3620B /* lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47967141D65696D00F3620B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A47967161D65696D00F3620B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +36,10 @@
 		A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBar.m; sourceTree = "<group>"; };
 		A4CFF1C31D65C380007A3C8E /* LTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarButton.h; sourceTree = "<group>"; };
 		A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarButton.m; sourceTree = "<group>"; };
+		A4ED17761D6AB4A50041EF99 /* LTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNavigationController.h; sourceTree = "<group>"; };
+		A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavigationController.m; sourceTree = "<group>"; };
+		A4ED17791D6AF0ED0041EF99 /* LTTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTitleButton.h; sourceTree = "<group>"; };
+		A4ED177A1D6AF0ED0041EF99 /* LTTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTitleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				A47967191D65696D00F3620B /* ViewController.h */,
 				A479671A1D65696D00F3620B /* ViewController.m */,
 				A479671C1D65696D00F3620B /* Main.storyboard */,
+				A4278B091D671938009CDABE /* lottery-Prefix.pch */,
 				A479671F1D65696D00F3620B /* Assets.xcassets */,
 				A47967241D65696D00F3620B /* Info.plist */,
 				A47967131D65696D00F3620B /* Supporting Files */,
@@ -186,6 +193,8 @@
 		A4CFF1B71D659256007A3C8E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4ED17791D6AF0ED0041EF99 /* LTTitleButton.h */,
+				A4ED177A1D6AF0ED0041EF99 /* LTTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -205,6 +214,8 @@
 			children = (
 				A4CFF1BD1D65A4DF007A3C8E /* LTTabBarViewController.h */,
 				A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */,
+				A4ED17761D6AB4A50041EF99 /* LTNavigationController.h */,
+				A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,7 +241,6 @@
 		A4CFF1BC1D659256007A3C8E /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A4278B091D671938009CDABE /* lottery-Prefix.pch */,
 				A47967161D65696D00F3620B /* AppDelegate.h */,
 				A47967171D65696D00F3620B /* AppDelegate.m */,
 			);
@@ -310,9 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */,
 				A479671B1D65696D00F3620B /* ViewController.m in Sources */,
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
+				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
 				04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
 				04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */,
@@ -417,11 +429,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lottery-Prefix.pch";
 				INFOPLIST_FILE = lottery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -429,6 +445,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/lottery-Prefix.pch";
 				INFOPLIST_FILE = lottery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
