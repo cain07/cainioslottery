@@ -170,6 +170,7 @@
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5fa-CP-Wth" customClass="LTTitleButton">
                             <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <state key="normal" title="hemaigenda" image="YellowDownArrow"/>
                         </button>
                     </navigationItem>
@@ -187,6 +188,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HtU-pF-dcG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RPR-eF-AWy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -226,8 +228,26 @@
                     <view key="view" contentMode="scaleToFill" id="NCL-BX-VcV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99346536207970526" green="0.80118995521466096" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="1gk-qH-aSz">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="82" width="300" height="140"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <color key="tintColor" red="0.94168243127924212" green="0.66239955835515096" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1gk-qH-aSz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1gk-qH-aSz"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="wode" id="Evb-D9-Gxs"/>
                 </viewController>
@@ -277,6 +297,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LoginScreen" width="150" height="70"/>
         <image name="YellowDownArrow" width="16" height="16"/>
         <image name="zixunBarFlat" width="13" height="11"/>
     </resources>

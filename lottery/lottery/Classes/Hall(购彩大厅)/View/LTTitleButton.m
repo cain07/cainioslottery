@@ -8,7 +8,7 @@
 
 #import "LTTitleButton.h"
 
-#import <Av>
+#import <Availability.h>
 
 @implementation LTTitleButton
 
@@ -29,9 +29,21 @@
                            NSFontAttributeName :[UIFont systemFontOfSize:15]
                            };
     
-    CGFloat titleH = [self.currentTitle boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine attributes:dict context:nil].size.width;
+    CGFloat titleW  = 0;
     
-    CGFloat titleW = contentRect.size.height;
+    if (ios7) {
+#ifdef __IPHONE_7_0
+       titleW = [self.currentTitle boundingRectWithSize:CGSizeMake(MAXFLOAT, MAXFLOAT) options:NSStringDrawingTruncatesLastVisibleLine attributes:dict context:nil].size.width;
+        
+#else
+        titleW = [self.currentTitle sizeWithFont:[UIFont systemFontOfSize:15]].width;
+
+#endif
+    }else{
+        titleW = [self.currentTitle sizeWithFont:[UIFont systemFontOfSize:15]].width;
+    }
+    
+    CGFloat titleH = contentRect.size.height;
     
     return CGRectMake(titleX, titleY, titleW, titleH);
 }
@@ -49,5 +61,19 @@
 -(void)awakeFromNib{
     self.imageView.contentMode = UIViewContentModeCenter;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end
