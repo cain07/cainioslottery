@@ -46,7 +46,7 @@
         <!--Item-->
         <scene sceneID="d8m-Jd-3pA">
             <objects>
-                <navigationController id="fMY-PZ-viP" sceneMemberID="viewController">
+                <navigationController id="fMY-PZ-viP" customClass="LTNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="kHx-lT-e8T"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WgC-uB-zxE">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -63,7 +63,7 @@
         <!--Item-->
         <scene sceneID="ql2-uE-rN8">
             <objects>
-                <navigationController id="8xB-Dp-g8h" sceneMemberID="viewController">
+                <navigationController id="8xB-Dp-g8h" customClass="LTNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="hVJ-wN-drN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="oGH-cS-jA9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -80,7 +80,7 @@
         <!--Item-->
         <scene sceneID="NeT-IC-CUH">
             <objects>
-                <navigationController id="y14-4Z-R1f" sceneMemberID="viewController">
+                <navigationController id="y14-4Z-R1f" customClass="LTNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="Npw-HB-6iD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mGM-Ep-4Ng">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -97,7 +97,7 @@
         <!--Item-->
         <scene sceneID="dDH-Pl-WTi">
             <objects>
-                <navigationController id="N3t-Jv-Uau" sceneMemberID="viewController">
+                <navigationController id="N3t-Jv-Uau" customClass="LTNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="9d2-Eh-F5M"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Lvd-hq-T43">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -124,7 +124,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.96971299245801224" green="1" blue="0.40378741919820171" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="kaijiangxinxi" id="eDb-Eh-hel"/>
+                    <navigationItem key="navigationItem" title="kaijiangxinxi" id="eDb-Eh-hel">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="3gV-wp-4NZ"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdu-Tj-bx6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,16 +148,17 @@
                     <navigationItem key="navigationItem" id="9yA-nv-weN">
                         <nil key="title"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5fa-CP-Wth" customClass="LTTitleButton">
-                            <rect key="frame" x="107" y="7" width="106" height="30"/>
+                            <rect key="frame" x="79" y="7" width="162" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                             <state key="normal" title="hemaigenda" image="YellowDownArrow"/>
                         </button>
+                        <barButtonItem key="rightBarButtonItem" image="NavInfoFlat" id="nZp-xr-Rox"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebw-eh-fcE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-972.79999999999995" y="35.5"/>
+            <point key="canvasLocation" x="-973" y="35"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ciH-gu-8hI">
@@ -220,7 +223,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.94168243127924212" green="0.66239955835515096" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="wode" id="Evb-D9-Gxs"/>
+                    <navigationItem key="navigationItem" title="wode" id="Evb-D9-Gxs">
+                        <barButtonItem key="rightBarButtonItem" title="设置" id="XXd-Ai-JQi">
+                            <connections>
+                                <action selector="btnSettingOnClick:" destination="IPM-CS-LQ9" id="aGd-gm-dny"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="btnLogin" destination="Agn-b3-A7Q" id="1hl-A7-vXc"/>
                     </connections>
@@ -272,6 +281,7 @@
     </scenes>
     <resources>
         <image name="LoginScreen" width="150" height="70"/>
+        <image name="NavInfoFlat" width="22" height="22"/>
         <image name="RedButton" width="61" height="34"/>
         <image name="YellowDownArrow" width="16" height="16"/>
         <image name="zixunBarFlat" width="13" height="11"/>

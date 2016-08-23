@@ -8,6 +8,8 @@
 
 #import "LoginViewController.h"
 
+#import "SettingTableViewController.h"
+
 #import "UIImage+Tools.h"
 
 @interface LoginViewController ()
@@ -27,6 +29,13 @@
     [_btnLogin setBackgroundImage:[UIImage imageWithResizableWithImageName:@"RedButtonPressed"] forState:UIControlStateSelected];
     // Do any additional setup after loading the view.
 }
+
+- (IBAction)btnSettingOnClick:(id)sender {
+    SettingTableViewController *stvc = [[SettingTableViewController alloc] init];
+    
+    [self.navigationController pushViewController:stvc animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
