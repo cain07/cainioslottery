@@ -15,6 +15,8 @@
 		A479671B1D65696D00F3620B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A479671A1D65696D00F3620B /* ViewController.m */; };
 		A479671E1D65696D00F3620B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A479671C1D65696D00F3620B /* Main.storyboard */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
+		A4D15B3A1D6BFF3700D4D938 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D15B391D6BFF3700D4D938 /* LoginViewController.m */; };
+		A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D15B3D1D6C038F00D4D938 /* UIImage+Tools.m */; };
 		A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */; };
 		A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ED177A1D6AF0ED0041EF99 /* LTTitleButton.m */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,10 @@
 		A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBar.m; sourceTree = "<group>"; };
 		A4CFF1C31D65C380007A3C8E /* LTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarButton.h; sourceTree = "<group>"; };
 		A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarButton.m; sourceTree = "<group>"; };
+		A4D15B381D6BFF3700D4D938 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A4D15B391D6BFF3700D4D938 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A4D15B3C1D6C038F00D4D938 /* UIImage+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tools.h"; sourceTree = "<group>"; };
+		A4D15B3D1D6C038F00D4D938 /* UIImage+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tools.m"; sourceTree = "<group>"; };
 		A4ED17761D6AB4A50041EF99 /* LTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNavigationController.h; sourceTree = "<group>"; };
 		A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavigationController.m; sourceTree = "<group>"; };
 		A4ED17791D6AF0ED0041EF99 /* LTTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTitleButton.h; sourceTree = "<group>"; };
@@ -95,6 +101,7 @@
 		A4CFF1AB1D659256007A3C8E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A4D15B341D6BFEFF00D4D938 /* Mine */,
 				A4CFF1AC1D659256007A3C8E /* Award(开奖信息) */,
 				A4CFF1B01D659256007A3C8E /* Buy(合买跟单) */,
 				A4CFF1B41D659256007A3C8E /* Hall(购彩大厅) */,
@@ -241,10 +248,53 @@
 		A4CFF1BC1D659256007A3C8E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A4D15B3B1D6C02B600D4D938 /* Category */,
 				A47967161D65696D00F3620B /* AppDelegate.h */,
 				A47967171D65696D00F3620B /* AppDelegate.m */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		A4D15B341D6BFEFF00D4D938 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				A4D15B351D6BFEFF00D4D938 /* Controller */,
+				A4D15B361D6BFEFF00D4D938 /* Model */,
+				A4D15B371D6BFEFF00D4D938 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		A4D15B351D6BFEFF00D4D938 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D15B381D6BFF3700D4D938 /* LoginViewController.h */,
+				A4D15B391D6BFF3700D4D938 /* LoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D15B361D6BFEFF00D4D938 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D15B371D6BFEFF00D4D938 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D15B3B1D6C02B600D4D938 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4D15B3C1D6C038F00D4D938 /* UIImage+Tools.h */,
+				A4D15B3D1D6C038F00D4D938 /* UIImage+Tools.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,8 +373,10 @@
 				A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */,
 				A479671B1D65696D00F3620B /* ViewController.m in Sources */,
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
+				A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
 				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
+				A4D15B3A1D6BFF3700D4D938 /* LoginViewController.m in Sources */,
 				04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
 				04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */,
@@ -433,7 +485,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/lottery-Prefix.pch";
 				INFOPLIST_FILE = lottery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,7 +501,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/lottery-Prefix.pch";
 				INFOPLIST_FILE = lottery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
