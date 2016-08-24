@@ -12,6 +12,7 @@
 		04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
 		A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40E05ED1D6C72C300A42BAC /* Main.storyboard */; };
 		A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F01D6C72E500A42BAC /* ViewController.m */; };
+		A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F31D6DABA600A42BAC /* SettingItem.m */; };
 		A47967151D65696D00F3620B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967141D65696D00F3620B /* main.m */; };
 		A47967181D65696D00F3620B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967171D65696D00F3620B /* AppDelegate.m */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A40E05EE1D6C72C300A42BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40E05F01D6C72E500A42BAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A40E05F21D6DABA600A42BAC /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
+		A40E05F31D6DABA600A42BAC /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
 		A4278B091D671938009CDABE /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A47967101D65696D00F3620B /* lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47967141D65696D00F3620B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -323,6 +326,8 @@
 		A4D15B411D6C3A5500D4D938 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A40E05F21D6DABA600A42BAC /* SettingItem.h */,
+				A40E05F31D6DABA600A42BAC /* SettingItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -412,6 +417,7 @@
 				A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
 				A4D15B481D6C4CA500D4D938 /* SettingTableViewController.m in Sources */,
+				A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
 				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
 				A4D15B3A1D6BFF3700D4D938 /* LoginViewController.m in Sources */,
