@@ -23,15 +23,15 @@
     if (_dataList == nil) {
         _dataList = [NSMutableArray array];
         
-        SettingItem *si1 = [SettingItem itemWithIcon:@"" title:@"推送和提醒"];
-        SettingItem *si2 = [SettingItem itemWithIcon:@"" title:@"摇一摇机选"];
+        SettingItem *si1 = [SettingItem itemWithIcon:@"MorePush" title:@"推送和提醒"];
+        SettingItem *si2 = [SettingItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
         
         
         
         NSArray *group0 = @[si1,si2];
         
-        SettingItem *si3 = [SettingItem itemWithIcon:nil title:@"检查新版本"];
-        SettingItem *si4 = [SettingItem itemWithIcon:@"" title:@"帮助"];
+        SettingItem *si3 = [SettingItem itemWithIcon:@"MoreUpdate" title:@"检查新版本"];
+        SettingItem *si4 = [SettingItem itemWithIcon:@"MoreHelp" title:@"帮助"];
         
         NSArray *group1 = @[si3,si4];
         
@@ -67,8 +67,38 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
+    static NSString *ID = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+    }
+    
+    SettingItem *item =  self.dataList[indexPath.section][indexPath.row];
+    
+    cell.imageView.image = [UIImage imageNamed:item.icon];
+    
+    cell.textLabel.text = item.title;
+    
     return cell;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
