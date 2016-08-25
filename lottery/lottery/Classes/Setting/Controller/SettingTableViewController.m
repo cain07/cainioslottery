@@ -12,6 +12,13 @@
 
 #import "SettingGroup.h"
 
+#import "SettingCell.h"
+
+#import "SettingArrawItem.h"
+#import "SettingSwithItem.h"
+
+#import "TestSetViewController.h"
+
 @interface SettingTableViewController()
 
 @property (nonatomic,strong) NSMutableArray *dataList;
@@ -25,16 +32,27 @@
     if (_dataList == nil) {
         _dataList = [NSMutableArray array];
         
-        SettingItem *si1 = [SettingItem itemWithIcon:@"MorePush" title:@"推送和提醒"];
-        SettingItem *si2 = [SettingItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
+        SettingArrawItem *si1 = [SettingArrawItem itemWithIcon:@"MorePush" title:@"推送和提醒"];
+        SettingItem *si2 = [SettingSwithItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
+        si1.destArrawClass = [TestSetViewController class];
+        
+        SettingItem *s3 = [SettingSwithItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
+        SettingItem *s4 = [SettingSwithItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
+        SettingItem *s5 = [SettingSwithItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
+        SettingItem *s6 = [SettingSwithItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
         
         SettingGroup *group0 = [[SettingGroup alloc]init];
         group0.items = @[si1,si2];
         group0.header = @"我是头部";
         group0.footer = @"我是底部";
         
-        SettingItem *si3 = [SettingItem itemWithIcon:@"MoreUpdate" title:@"检查新版本"];
-        SettingItem *si4 = [SettingItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+        SettingItem *si3 = [SettingArrawItem itemWithIcon:@"MoreUpdate" title:@"检查新版本"];
+        SettingItem *si4 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+        SettingItem *si5 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+        SettingItem *si6 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+        SettingItem *si7 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+        SettingItem *si8 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+        
         
         SettingGroup *group1 = [[SettingGroup alloc]init];
         group1.items = @[si3,si4];
@@ -75,22 +93,13 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    static NSString *ID = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
-    }
-    
+    //创建cell
+    SettingCell *cell = [SettingCell CellWithTableView:tableView];
+    //取出模型
     SettingGroup *arry = self.dataList[indexPath.section];
-    
-    
     SettingItem *item =  arry.items[indexPath.row];
-    
-    cell.imageView.image = [UIImage imageNamed:item.icon];
-    
-    cell.textLabel.text = item.title;
-    
+    //传递模型
+    cell.item = item;
     return cell;
 }
 
@@ -108,8 +117,27 @@
 }
 
 
+//条目的单击事件
 
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //取出模型
+    SettingGroup *group =  self.dataList[indexPath.section];
+    
+    SettingItem *itemclick = group.items[indexPath.row];
+    
+    if ([itemclick isKindOfClass:[SettingArrawItem class]]) {
+        SettingArrawItem *itemArraw = (SettingArrawItem *)itemclick;
+        
+        UIViewController *vc = [[itemArraw.destArrawClass alloc] init];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    
+    //跳转
+    
+   
+}
 
 
 

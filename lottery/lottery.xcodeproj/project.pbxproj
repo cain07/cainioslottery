@@ -14,6 +14,11 @@
 		A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F01D6C72E500A42BAC /* ViewController.m */; };
 		A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F31D6DABA600A42BAC /* SettingItem.m */; };
 		A40E05F71D6E8E4C00A42BAC /* SettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F61D6E8E4C00A42BAC /* SettingGroup.m */; };
+		A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F91D6E9CFF00A42BAC /* SettingCell.m */; };
+		A40E05FD1D6EC42200A42BAC /* SettingArrawItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05FC1D6EC42200A42BAC /* SettingArrawItem.m */; };
+		A40E06001D6EC43F00A42BAC /* SettingSwithItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05FF1D6EC43F00A42BAC /* SettingSwithItem.m */; };
+		A40E06071D6EDAF200A42BAC /* TestSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06051D6EDAF200A42BAC /* TestSetViewController.m */; };
+		A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40E06061D6EDAF200A42BAC /* TestSetViewController.xib */; };
 		A47967151D65696D00F3620B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967141D65696D00F3620B /* main.m */; };
 		A47967181D65696D00F3620B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967171D65696D00F3620B /* AppDelegate.m */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
@@ -31,6 +36,15 @@
 		A40E05F31D6DABA600A42BAC /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
 		A40E05F51D6E8E4C00A42BAC /* SettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingGroup.h; sourceTree = "<group>"; };
 		A40E05F61D6E8E4C00A42BAC /* SettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingGroup.m; sourceTree = "<group>"; };
+		A40E05F81D6E9CFF00A42BAC /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
+		A40E05F91D6E9CFF00A42BAC /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCell.m; sourceTree = "<group>"; };
+		A40E05FB1D6EC42200A42BAC /* SettingArrawItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingArrawItem.h; sourceTree = "<group>"; };
+		A40E05FC1D6EC42200A42BAC /* SettingArrawItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingArrawItem.m; sourceTree = "<group>"; };
+		A40E05FE1D6EC43F00A42BAC /* SettingSwithItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingSwithItem.h; sourceTree = "<group>"; };
+		A40E05FF1D6EC43F00A42BAC /* SettingSwithItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingSwithItem.m; sourceTree = "<group>"; };
+		A40E06041D6EDAF200A42BAC /* TestSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSetViewController.h; sourceTree = "<group>"; };
+		A40E06051D6EDAF200A42BAC /* TestSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSetViewController.m; sourceTree = "<group>"; };
+		A40E06061D6EDAF200A42BAC /* TestSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestSetViewController.xib; sourceTree = "<group>"; };
 		A4278B091D671938009CDABE /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A47967101D65696D00F3620B /* lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47967141D65696D00F3620B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -322,6 +336,9 @@
 			children = (
 				A4D15B461D6C4CA500D4D938 /* SettingTableViewController.h */,
 				A4D15B471D6C4CA500D4D938 /* SettingTableViewController.m */,
+				A40E06041D6EDAF200A42BAC /* TestSetViewController.h */,
+				A40E06051D6EDAF200A42BAC /* TestSetViewController.m */,
+				A40E06061D6EDAF200A42BAC /* TestSetViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -333,6 +350,10 @@
 				A40E05F31D6DABA600A42BAC /* SettingItem.m */,
 				A40E05F51D6E8E4C00A42BAC /* SettingGroup.h */,
 				A40E05F61D6E8E4C00A42BAC /* SettingGroup.m */,
+				A40E05FB1D6EC42200A42BAC /* SettingArrawItem.h */,
+				A40E05FC1D6EC42200A42BAC /* SettingArrawItem.m */,
+				A40E05FE1D6EC43F00A42BAC /* SettingSwithItem.h */,
+				A40E05FF1D6EC43F00A42BAC /* SettingSwithItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -340,6 +361,8 @@
 		A4D15B421D6C3A5500D4D938 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A40E05F81D6E9CFF00A42BAC /* SettingCell.h */,
+				A40E05F91D6E9CFF00A42BAC /* SettingCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -407,6 +430,7 @@
 			files = (
 				A47967201D65696D00F3620B /* Assets.xcassets in Resources */,
 				A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */,
+				A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +443,7 @@
 			files = (
 				A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */,
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
+				A40E06071D6EDAF200A42BAC /* TestSetViewController.m in Sources */,
 				A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
 				A4D15B481D6C4CA500D4D938 /* SettingTableViewController.m in Sources */,
@@ -426,7 +451,10 @@
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
 				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
 				A4D15B3A1D6BFF3700D4D938 /* LoginViewController.m in Sources */,
+				A40E06001D6EC43F00A42BAC /* SettingSwithItem.m in Sources */,
+				A40E05FD1D6EC42200A42BAC /* SettingArrawItem.m in Sources */,
 				04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */,
+				A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
 				04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */,
 				A40E05F71D6E8E4C00A42BAC /* SettingGroup.m in Sources */,
