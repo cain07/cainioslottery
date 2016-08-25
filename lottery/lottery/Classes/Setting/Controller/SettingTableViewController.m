@@ -10,6 +10,8 @@
 
 #import "SettingItem.h"
 
+#import "SettingGroup.h"
+
 @interface SettingTableViewController()
 
 @property (nonatomic,strong) NSMutableArray *dataList;
@@ -26,14 +28,19 @@
         SettingItem *si1 = [SettingItem itemWithIcon:@"MorePush" title:@"推送和提醒"];
         SettingItem *si2 = [SettingItem itemWithIcon:@"handShake" title:@"摇一摇机选"];
         
-        
-        
-        NSArray *group0 = @[si1,si2];
+        SettingGroup *group0 = [[SettingGroup alloc]init];
+        group0.items = @[si1,si2];
+        group0.header = @"我是头部";
+        group0.footer = @"我是底部";
         
         SettingItem *si3 = [SettingItem itemWithIcon:@"MoreUpdate" title:@"检查新版本"];
         SettingItem *si4 = [SettingItem itemWithIcon:@"MoreHelp" title:@"帮助"];
         
-        NSArray *group1 = @[si3,si4];
+        SettingGroup *group1 = [[SettingGroup alloc]init];
+        group1.items = @[si3,si4];
+        group1.header = @"我是头部";
+        group1.footer = @"我是底部";
+        
         
         [_dataList addObject:group0];
         [_dataList addObject:group1];
@@ -59,8 +66,9 @@
 
 //每组有多少个
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-     NSArray *arry = self.dataList[section];
-    return arry.count;
+     SettingGroup *arry = self.dataList[section];
+    
+    return arry.items.count;
 }
 
 
@@ -74,7 +82,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
     }
     
-    SettingItem *item =  self.dataList[indexPath.section][indexPath.row];
+    SettingGroup *arry = self.dataList[indexPath.section];
+    
+    
+    SettingItem *item =  arry.items[indexPath.row];
     
     cell.imageView.image = [UIImage imageNamed:item.icon];
     
@@ -84,7 +95,17 @@
 }
 
 
+-(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+     SettingGroup *arry = self.dataList[section];
+    
+    return arry.header;
+}
 
+-(NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section{
+    SettingGroup *arry = self.dataList[section];
+    
+    return arry.footer;
+}
 
 
 
