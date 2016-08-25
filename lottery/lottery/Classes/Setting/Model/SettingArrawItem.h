@@ -12,4 +12,6 @@
 
 @property (nonatomic,strong) Class destArrawClass;
 
++(instancetype)itemWithIcon:(NSString *)icon title:(NSString *) title destArrawClass:(Class) destArrawClass;
+
 @end

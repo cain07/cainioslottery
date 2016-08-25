@@ -10,6 +10,9 @@
 		04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */; };
 		04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */; };
 		04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
+		046106011D6F3E7A00199324 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 046105FD1D6F3E7A00199324 /* MBProgressHUD+MJ.m */; };
+		046106021D6F3E7A00199324 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046105FE1D6F3E7A00199324 /* MBProgressHUD.bundle */; };
+		046106031D6F3E7A00199324 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106001D6F3E7A00199324 /* MBProgressHUD.m */; };
 		A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40E05ED1D6C72C300A42BAC /* Main.storyboard */; };
 		A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F01D6C72E500A42BAC /* ViewController.m */; };
 		A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F31D6DABA600A42BAC /* SettingItem.m */; };
@@ -30,6 +33,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046105FC1D6F3E7A00199324 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		046105FD1D6F3E7A00199324 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		046105FE1D6F3E7A00199324 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		046105FF1D6F3E7A00199324 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		046106001D6F3E7A00199324 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		A40E05EE1D6C72C300A42BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40E05F01D6C72E500A42BAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A40E05F21D6DABA600A42BAC /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
@@ -82,6 +90,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046105FA1D6F3E7A00199324 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				046105FB1D6F3E7A00199324 /* MBProgressHUD */,
+			);
+			name = Lib;
+			path = "../../../../../../../Downloads/0910-彩票第二天/0910-彩票第二天/Lib";
+			sourceTree = "<group>";
+		};
+		046105FB1D6F3E7A00199324 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				046105FC1D6F3E7A00199324 /* MBProgressHUD+MJ.h */,
+				046105FD1D6F3E7A00199324 /* MBProgressHUD+MJ.m */,
+				046105FE1D6F3E7A00199324 /* MBProgressHUD.bundle */,
+				046105FF1D6F3E7A00199324 /* MBProgressHUD.h */,
+				046106001D6F3E7A00199324 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		A47967071D65696C00F3620B = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +301,7 @@
 		A4CFF1BC1D659256007A3C8E /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				046105FA1D6F3E7A00199324 /* Lib */,
 				A4D15B3B1D6C02B600D4D938 /* Category */,
 				A47967161D65696D00F3620B /* AppDelegate.h */,
 				A47967171D65696D00F3620B /* AppDelegate.m */,
@@ -429,6 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47967201D65696D00F3620B /* Assets.xcassets in Resources */,
+				046106021D6F3E7A00199324 /* MBProgressHUD.bundle in Resources */,
 				A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */,
 				A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */,
 			);
@@ -441,12 +472,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046106011D6F3E7A00199324 /* MBProgressHUD+MJ.m in Sources */,
 				A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */,
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
 				A40E06071D6EDAF200A42BAC /* TestSetViewController.m in Sources */,
 				A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
 				A4D15B481D6C4CA500D4D938 /* SettingTableViewController.m in Sources */,
+				046106031D6F3E7A00199324 /* MBProgressHUD.m in Sources */,
 				A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
 				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
