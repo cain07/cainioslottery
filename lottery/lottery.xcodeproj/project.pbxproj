@@ -10,18 +10,25 @@
 		04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */; };
 		04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */; };
 		04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
-		046106011D6F3E7A00199324 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 046105FD1D6F3E7A00199324 /* MBProgressHUD+MJ.m */; };
-		046106021D6F3E7A00199324 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046105FE1D6F3E7A00199324 /* MBProgressHUD.bundle */; };
-		046106031D6F3E7A00199324 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106001D6F3E7A00199324 /* MBProgressHUD.m */; };
 		A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40E05ED1D6C72C300A42BAC /* Main.storyboard */; };
 		A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F01D6C72E500A42BAC /* ViewController.m */; };
-		A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F31D6DABA600A42BAC /* SettingItem.m */; };
-		A40E05F71D6E8E4C00A42BAC /* SettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F61D6E8E4C00A42BAC /* SettingGroup.m */; };
 		A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F91D6E9CFF00A42BAC /* SettingCell.m */; };
-		A40E05FD1D6EC42200A42BAC /* SettingArrawItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05FC1D6EC42200A42BAC /* SettingArrawItem.m */; };
-		A40E06001D6EC43F00A42BAC /* SettingSwithItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05FF1D6EC43F00A42BAC /* SettingSwithItem.m */; };
 		A40E06071D6EDAF200A42BAC /* TestSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06051D6EDAF200A42BAC /* TestSetViewController.m */; };
 		A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40E06061D6EDAF200A42BAC /* TestSetViewController.xib */; };
+		A40E06101D6FE35400A42BAC /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E060C1D6FE35400A42BAC /* MBProgressHUD+MJ.m */; };
+		A40E06111D6FE35400A42BAC /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A40E060D1D6FE35400A42BAC /* MBProgressHUD.bundle */; };
+		A40E06121D6FE35400A42BAC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E060F1D6FE35400A42BAC /* MBProgressHUD.m */; };
+		A40E06161D6FE4D400A42BAC /* PruductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06151D6FE4D400A42BAC /* PruductViewController.m */; };
+		A40E061B1D702E6200A42BAC /* cywt.json in Resources */ = {isa = PBXBuildFile; fileRef = A40E06181D702E6200A42BAC /* cywt.json */; };
+		A40E061C1D702E6200A42BAC /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = A40E06191D702E6200A42BAC /* help.json */; };
+		A40E061D1D702E6200A42BAC /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = A40E061A1D702E6200A42BAC /* products.json */; };
+		A40E06281D702F0F00A42BAC /* SettingArrawItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06211D702F0F00A42BAC /* SettingArrawItem.m */; };
+		A40E06291D702F0F00A42BAC /* SettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06231D702F0F00A42BAC /* SettingGroup.m */; };
+		A40E062A1D702F0F00A42BAC /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06251D702F0F00A42BAC /* SettingItem.m */; };
+		A40E062B1D702F0F00A42BAC /* SettingSwithItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06271D702F0F00A42BAC /* SettingSwithItem.m */; };
+		A40E062E1D702F4500A42BAC /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E062D1D702F4500A42BAC /* Product.m */; };
+		A40E06311D7035A500A42BAC /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E06301D7035A500A42BAC /* ProductCell.m */; };
+		A40E06331D7035DA00A42BAC /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40E06321D7035DA00A42BAC /* ProductCell.xib */; };
 		A47967151D65696D00F3620B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967141D65696D00F3620B /* main.m */; };
 		A47967181D65696D00F3620B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47967171D65696D00F3620B /* AppDelegate.m */; };
 		A47967201D65696D00F3620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A479671F1D65696D00F3620B /* Assets.xcassets */; };
@@ -33,26 +40,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		046105FC1D6F3E7A00199324 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
-		046105FD1D6F3E7A00199324 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
-		046105FE1D6F3E7A00199324 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
-		046105FF1D6F3E7A00199324 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		046106001D6F3E7A00199324 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		A40E05EE1D6C72C300A42BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40E05F01D6C72E500A42BAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A40E05F21D6DABA600A42BAC /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
-		A40E05F31D6DABA600A42BAC /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
-		A40E05F51D6E8E4C00A42BAC /* SettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingGroup.h; sourceTree = "<group>"; };
-		A40E05F61D6E8E4C00A42BAC /* SettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingGroup.m; sourceTree = "<group>"; };
 		A40E05F81D6E9CFF00A42BAC /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
 		A40E05F91D6E9CFF00A42BAC /* SettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCell.m; sourceTree = "<group>"; };
-		A40E05FB1D6EC42200A42BAC /* SettingArrawItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingArrawItem.h; sourceTree = "<group>"; };
-		A40E05FC1D6EC42200A42BAC /* SettingArrawItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingArrawItem.m; sourceTree = "<group>"; };
-		A40E05FE1D6EC43F00A42BAC /* SettingSwithItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingSwithItem.h; sourceTree = "<group>"; };
-		A40E05FF1D6EC43F00A42BAC /* SettingSwithItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingSwithItem.m; sourceTree = "<group>"; };
 		A40E06041D6EDAF200A42BAC /* TestSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSetViewController.h; sourceTree = "<group>"; };
 		A40E06051D6EDAF200A42BAC /* TestSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSetViewController.m; sourceTree = "<group>"; };
 		A40E06061D6EDAF200A42BAC /* TestSetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestSetViewController.xib; sourceTree = "<group>"; };
+		A40E060B1D6FE35400A42BAC /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		A40E060C1D6FE35400A42BAC /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		A40E060D1D6FE35400A42BAC /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		A40E060E1D6FE35400A42BAC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A40E060F1D6FE35400A42BAC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A40E06141D6FE4D400A42BAC /* PruductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PruductViewController.h; sourceTree = "<group>"; };
+		A40E06151D6FE4D400A42BAC /* PruductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PruductViewController.m; sourceTree = "<group>"; };
+		A40E06181D702E6200A42BAC /* cywt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cywt.json; sourceTree = "<group>"; };
+		A40E06191D702E6200A42BAC /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		A40E061A1D702E6200A42BAC /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		A40E06201D702F0F00A42BAC /* SettingArrawItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingArrawItem.h; sourceTree = "<group>"; };
+		A40E06211D702F0F00A42BAC /* SettingArrawItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingArrawItem.m; sourceTree = "<group>"; };
+		A40E06221D702F0F00A42BAC /* SettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingGroup.h; sourceTree = "<group>"; };
+		A40E06231D702F0F00A42BAC /* SettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingGroup.m; sourceTree = "<group>"; };
+		A40E06241D702F0F00A42BAC /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
+		A40E06251D702F0F00A42BAC /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
+		A40E06261D702F0F00A42BAC /* SettingSwithItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingSwithItem.h; sourceTree = "<group>"; };
+		A40E06271D702F0F00A42BAC /* SettingSwithItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingSwithItem.m; sourceTree = "<group>"; };
+		A40E062C1D702F4500A42BAC /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		A40E062D1D702F4500A42BAC /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		A40E062F1D7035A500A42BAC /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		A40E06301D7035A500A42BAC /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		A40E06321D7035DA00A42BAC /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		A4278B091D671938009CDABE /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A47967101D65696D00F3620B /* lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47967141D65696D00F3620B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,25 +107,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		046105FA1D6F3E7A00199324 /* Lib */ = {
+		A40E06091D6FE35400A42BAC /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				046105FB1D6F3E7A00199324 /* MBProgressHUD */,
+				A40E060A1D6FE35400A42BAC /* MBProgressHUD */,
 			);
-			name = Lib;
-			path = "../../../../../../../Downloads/0910-彩票第二天/0910-彩票第二天/Lib";
+			path = Lib;
 			sourceTree = "<group>";
 		};
-		046105FB1D6F3E7A00199324 /* MBProgressHUD */ = {
+		A40E060A1D6FE35400A42BAC /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				046105FC1D6F3E7A00199324 /* MBProgressHUD+MJ.h */,
-				046105FD1D6F3E7A00199324 /* MBProgressHUD+MJ.m */,
-				046105FE1D6F3E7A00199324 /* MBProgressHUD.bundle */,
-				046105FF1D6F3E7A00199324 /* MBProgressHUD.h */,
-				046106001D6F3E7A00199324 /* MBProgressHUD.m */,
+				A40E060B1D6FE35400A42BAC /* MBProgressHUD+MJ.h */,
+				A40E060C1D6FE35400A42BAC /* MBProgressHUD+MJ.m */,
+				A40E060D1D6FE35400A42BAC /* MBProgressHUD.bundle */,
+				A40E060E1D6FE35400A42BAC /* MBProgressHUD.h */,
+				A40E060F1D6FE35400A42BAC /* MBProgressHUD.m */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A40E06131D6FE49600A42BAC /* Pruduct */ = {
+			isa = PBXGroup;
+			children = (
+				A40E06141D6FE4D400A42BAC /* PruductViewController.h */,
+				A40E06151D6FE4D400A42BAC /* PruductViewController.m */,
+			);
+			path = Pruduct;
+			sourceTree = "<group>";
+		};
+		A40E06171D702E6200A42BAC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A40E06181D702E6200A42BAC /* cywt.json */,
+				A40E06191D702E6200A42BAC /* help.json */,
+				A40E061A1D702E6200A42BAC /* products.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A40E061E1D702F0F00A42BAC /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A40E062C1D702F4500A42BAC /* Product.h */,
+				A40E062D1D702F4500A42BAC /* Product.m */,
+			);
+			name = products;
+			path = Product;
+			sourceTree = "<group>";
+		};
+		A40E061F1D702F0F00A42BAC /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A40E06201D702F0F00A42BAC /* SettingArrawItem.h */,
+				A40E06211D702F0F00A42BAC /* SettingArrawItem.m */,
+				A40E06221D702F0F00A42BAC /* SettingGroup.h */,
+				A40E06231D702F0F00A42BAC /* SettingGroup.m */,
+				A40E06241D702F0F00A42BAC /* SettingItem.h */,
+				A40E06251D702F0F00A42BAC /* SettingItem.m */,
+				A40E06261D702F0F00A42BAC /* SettingSwithItem.h */,
+				A40E06271D702F0F00A42BAC /* SettingSwithItem.m */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		A47967071D65696C00F3620B = {
@@ -145,6 +205,7 @@
 		A47967131D65696D00F3620B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A40E06171D702E6200A42BAC /* Data */,
 				A47967141D65696D00F3620B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -301,7 +362,7 @@
 		A4CFF1BC1D659256007A3C8E /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				046105FA1D6F3E7A00199324 /* Lib */,
+				A40E06091D6FE35400A42BAC /* Lib */,
 				A4D15B3B1D6C02B600D4D938 /* Category */,
 				A47967161D65696D00F3620B /* AppDelegate.h */,
 				A47967171D65696D00F3620B /* AppDelegate.m */,
@@ -364,6 +425,7 @@
 		A4D15B401D6C3A5500D4D938 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A40E06131D6FE49600A42BAC /* Pruduct */,
 				A4D15B461D6C4CA500D4D938 /* SettingTableViewController.h */,
 				A4D15B471D6C4CA500D4D938 /* SettingTableViewController.m */,
 				A40E06041D6EDAF200A42BAC /* TestSetViewController.h */,
@@ -376,14 +438,8 @@
 		A4D15B411D6C3A5500D4D938 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A40E05F21D6DABA600A42BAC /* SettingItem.h */,
-				A40E05F31D6DABA600A42BAC /* SettingItem.m */,
-				A40E05F51D6E8E4C00A42BAC /* SettingGroup.h */,
-				A40E05F61D6E8E4C00A42BAC /* SettingGroup.m */,
-				A40E05FB1D6EC42200A42BAC /* SettingArrawItem.h */,
-				A40E05FC1D6EC42200A42BAC /* SettingArrawItem.m */,
-				A40E05FE1D6EC43F00A42BAC /* SettingSwithItem.h */,
-				A40E05FF1D6EC43F00A42BAC /* SettingSwithItem.m */,
+				A40E061E1D702F0F00A42BAC /* products */,
+				A40E061F1D702F0F00A42BAC /* Setting */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -393,6 +449,9 @@
 			children = (
 				A40E05F81D6E9CFF00A42BAC /* SettingCell.h */,
 				A40E05F91D6E9CFF00A42BAC /* SettingCell.m */,
+				A40E062F1D7035A500A42BAC /* ProductCell.h */,
+				A40E06301D7035A500A42BAC /* ProductCell.m */,
+				A40E06321D7035DA00A42BAC /* ProductCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -459,8 +518,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47967201D65696D00F3620B /* Assets.xcassets in Resources */,
-				046106021D6F3E7A00199324 /* MBProgressHUD.bundle in Resources */,
+				A40E06331D7035DA00A42BAC /* ProductCell.xib in Resources */,
+				A40E061B1D702E6200A42BAC /* cywt.json in Resources */,
+				A40E061D1D702E6200A42BAC /* products.json in Resources */,
+				A40E06111D6FE35400A42BAC /* MBProgressHUD.bundle in Resources */,
 				A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */,
+				A40E061C1D702E6200A42BAC /* help.json in Resources */,
 				A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,25 +535,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046106011D6F3E7A00199324 /* MBProgressHUD+MJ.m in Sources */,
+				A40E062E1D702F4500A42BAC /* Product.m in Sources */,
+				A40E06161D6FE4D400A42BAC /* PruductViewController.m in Sources */,
+				A40E062B1D702F0F00A42BAC /* SettingSwithItem.m in Sources */,
+				A40E06101D6FE35400A42BAC /* MBProgressHUD+MJ.m in Sources */,
+				A40E06291D702F0F00A42BAC /* SettingGroup.m in Sources */,
 				A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */,
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
+				A40E06311D7035A500A42BAC /* ProductCell.m in Sources */,
 				A40E06071D6EDAF200A42BAC /* TestSetViewController.m in Sources */,
 				A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
 				A4D15B481D6C4CA500D4D938 /* SettingTableViewController.m in Sources */,
-				046106031D6F3E7A00199324 /* MBProgressHUD.m in Sources */,
-				A40E05F41D6DABA600A42BAC /* SettingItem.m in Sources */,
+				A40E062A1D702F0F00A42BAC /* SettingItem.m in Sources */,
+				A40E06121D6FE35400A42BAC /* MBProgressHUD.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
+				A40E06281D702F0F00A42BAC /* SettingArrawItem.m in Sources */,
 				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
 				A4D15B3A1D6BFF3700D4D938 /* LoginViewController.m in Sources */,
-				A40E06001D6EC43F00A42BAC /* SettingSwithItem.m in Sources */,
-				A40E05FD1D6EC42200A42BAC /* SettingArrawItem.m in Sources */,
 				04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */,
 				A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
 				04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */,
-				A40E05F71D6E8E4C00A42BAC /* SettingGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

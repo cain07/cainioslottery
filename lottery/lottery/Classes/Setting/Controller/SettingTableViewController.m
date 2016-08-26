@@ -20,6 +20,8 @@
 #import "MBProgressHUD+MJ.h"
 #import "TestSetViewController.h"
 
+#import "PruductViewController.h"
+
 
 
 @interface SettingTableViewController()
@@ -70,7 +72,7 @@
         
         SettingArrawItem *s6 = [SettingArrawItem itemWithIcon:@"MorePush" title:@"分享" destArrawClass:[TestSetViewController class]];
         SettingArrawItem *s7 = [SettingArrawItem itemWithIcon:@"MoreMessage" title:@"查看消息" destArrawClass:[TestSetViewController class]];
-        SettingArrawItem *s8 = [SettingArrawItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destArrawClass:[TestSetViewController class]];
+        SettingArrawItem *s8 = [SettingArrawItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destArrawClass:[PruductViewController class]];
         SettingArrawItem *s9 = [SettingArrawItem itemWithIcon:@"MoreAbout" title:@"关于" destArrawClass:[TestSetViewController class]];
         
         SettingGroup *group1 = [[SettingGroup alloc]init];
