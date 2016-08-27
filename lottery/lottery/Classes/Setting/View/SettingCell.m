@@ -13,6 +13,8 @@
 #import "SettingArrawItem.h"
 #import "SettingSwithItem.h"
 
+#import "SettingLableItem.h"
+
 
 @interface SettingCell()
 
@@ -20,10 +22,24 @@
 
 @property (nonatomic,strong) UIImageView *imageItemView;
 
+@property (nonatomic,strong) UILabel *labelView;
+
 @end
 
 @implementation SettingCell
 
+
+-(UILabel *)labelView{
+    if (_labelView == nil) {
+        _labelView = [[UILabel alloc] init];
+    }
+    
+    _labelView.bounds = CGRectMake(0, 0, 100, 40);
+    _labelView.textColor = [UIColor redColor];
+    _labelView.textAlignment = NSTextAlignmentRight;
+    
+    return _labelView;
+}
 
 -(UISwitch *)switchView{
     if (_switchView == nil) {
@@ -66,7 +82,16 @@
     }else if([_item isKindOfClass:[SettingSwithItem class]]){
         self.accessoryView = self.switchView;
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-    }else{
+    }else if([_item isKindOfClass:[SettingLableItem class]]){
+        self.accessoryView = self.labelView;
+        
+        SettingLableItem *item = (SettingLableItem *)_item;
+        self.labelView.text =item.text;
+        self.selectionStyle = UITableViewCellSelectionStyleDefault;
+        
+    }
+    
+    else{
         self.accessoryView = nil;
         self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }

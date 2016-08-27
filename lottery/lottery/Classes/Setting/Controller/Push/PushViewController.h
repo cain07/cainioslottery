@@ -1,13 +1,14 @@
 //
-//  SettingTableViewController.h
+//  PushViewController.h
 //  lottery
 //
-//  Created by cain on 16/8/23.
+//  Created by mac on 16/8/27.
 //  Copyright © 2016年 cain. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
 #import "BaseTableViewController.h"
-@interface SettingTableViewController : BaseTableViewController
+@interface PushViewController : BaseTableViewController
 
 @end

@@ -10,6 +10,11 @@
 		04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1BE1D65A4DF007A3C8E /* LTTabBarViewController.m */; };
 		04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C11D65A4FB007A3C8E /* LTTabBar.m */; };
 		04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CFF1C41D65C380007A3C8E /* LTTabBarButton.m */; };
+		0461060A1D711FC000199324 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106091D711FC000199324 /* PushViewController.m */; };
+		0461060D1D713EBA00199324 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461060C1D713EBA00199324 /* BaseTableViewController.m */; };
+		046106101D7147A400199324 /* SorceShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461060F1D7147A400199324 /* SorceShowViewController.m */; };
+		046106131D714A0200199324 /* SettingLableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106121D714A0200199324 /* SettingLableItem.m */; };
+		046106171D71D60700199324 /* SaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106161D71D60700199324 /* SaveTool.m */; };
 		A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40E05ED1D6C72C300A42BAC /* Main.storyboard */; };
 		A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F01D6C72E500A42BAC /* ViewController.m */; };
 		A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F91D6E9CFF00A42BAC /* SettingCell.m */; };
@@ -40,6 +45,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046106081D711FC000199324 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		046106091D711FC000199324 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		0461060B1D713EBA00199324 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		0461060C1D713EBA00199324 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		0461060E1D7147A400199324 /* SorceShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SorceShowViewController.h; sourceTree = "<group>"; };
+		0461060F1D7147A400199324 /* SorceShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SorceShowViewController.m; sourceTree = "<group>"; };
+		046106111D714A0200199324 /* SettingLableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingLableItem.h; sourceTree = "<group>"; };
+		046106121D714A0200199324 /* SettingLableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingLableItem.m; sourceTree = "<group>"; };
+		046106151D71D60700199324 /* SaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveTool.h; sourceTree = "<group>"; };
+		046106161D71D60700199324 /* SaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveTool.m; sourceTree = "<group>"; };
 		A40E05EE1D6C72C300A42BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40E05F01D6C72E500A42BAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A40E05F81D6E9CFF00A42BAC /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
@@ -107,6 +122,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046106041D711F5A00199324 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				046106081D711FC000199324 /* PushViewController.h */,
+				046106091D711FC000199324 /* PushViewController.m */,
+				0461060E1D7147A400199324 /* SorceShowViewController.h */,
+				0461060F1D7147A400199324 /* SorceShowViewController.m */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		046106141D71D5F300199324 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				046106151D71D60700199324 /* SaveTool.h */,
+				046106161D71D60700199324 /* SaveTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		A40E06091D6FE35400A42BAC /* Lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +202,8 @@
 				A40E06251D702F0F00A42BAC /* SettingItem.m */,
 				A40E06261D702F0F00A42BAC /* SettingSwithItem.h */,
 				A40E06271D702F0F00A42BAC /* SettingSwithItem.m */,
+				046106111D714A0200199324 /* SettingLableItem.h */,
+				046106121D714A0200199324 /* SettingLableItem.m */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -415,6 +452,7 @@
 		A4D15B3F1D6C3A5500D4D938 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				046106141D71D5F300199324 /* Tool */,
 				A4D15B401D6C3A5500D4D938 /* Controller */,
 				A4D15B411D6C3A5500D4D938 /* Model */,
 				A4D15B421D6C3A5500D4D938 /* View */,
@@ -425,12 +463,15 @@
 		A4D15B401D6C3A5500D4D938 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				046106041D711F5A00199324 /* Push */,
 				A40E06131D6FE49600A42BAC /* Pruduct */,
 				A4D15B461D6C4CA500D4D938 /* SettingTableViewController.h */,
 				A4D15B471D6C4CA500D4D938 /* SettingTableViewController.m */,
 				A40E06041D6EDAF200A42BAC /* TestSetViewController.h */,
 				A40E06051D6EDAF200A42BAC /* TestSetViewController.m */,
 				A40E06061D6EDAF200A42BAC /* TestSetViewController.xib */,
+				0461060B1D713EBA00199324 /* BaseTableViewController.h */,
+				0461060C1D713EBA00199324 /* BaseTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -539,6 +580,7 @@
 				A40E06161D6FE4D400A42BAC /* PruductViewController.m in Sources */,
 				A40E062B1D702F0F00A42BAC /* SettingSwithItem.m in Sources */,
 				A40E06101D6FE35400A42BAC /* MBProgressHUD+MJ.m in Sources */,
+				046106101D7147A400199324 /* SorceShowViewController.m in Sources */,
 				A40E06291D702F0F00A42BAC /* SettingGroup.m in Sources */,
 				A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */,
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
@@ -550,12 +592,16 @@
 				A40E062A1D702F0F00A42BAC /* SettingItem.m in Sources */,
 				A40E06121D6FE35400A42BAC /* MBProgressHUD.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
+				046106131D714A0200199324 /* SettingLableItem.m in Sources */,
+				0461060A1D711FC000199324 /* PushViewController.m in Sources */,
 				A40E06281D702F0F00A42BAC /* SettingArrawItem.m in Sources */,
 				A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */,
 				A4D15B3A1D6BFF3700D4D938 /* LoginViewController.m in Sources */,
+				046106171D71D60700199324 /* SaveTool.m in Sources */,
 				04535AED1D6600A6000E69CB /* LTTabBarViewController.m in Sources */,
 				A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */,
 				A47967151D65696D00F3620B /* main.m in Sources */,
+				0461060D1D713EBA00199324 /* BaseTableViewController.m in Sources */,
 				04535AEE1D6600B6000E69CB /* LTTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -666,6 +712,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lottery/Classes/Setting/Controller/Push/lottery-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -682,6 +729,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "lottery/Classes/Setting/Controller/Push/lottery-Bridging-Header.h";
 			};
 			name = Release;
 		};

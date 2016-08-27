@@ -106,10 +106,10 @@ static NSString * const reuseIdentifier = @"Cell";
     return cell;
 }
 
--(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    Product *p = self.products[indexPath.item];
-    NSLog(@"%@---",p.title);
-}
+//-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+//    Product *p = self.products[indexPath.item];
+//    NSLog(@"%@---",p.title);
+//}
 
 #pragma mark <UICollectionViewDelegate>
 
