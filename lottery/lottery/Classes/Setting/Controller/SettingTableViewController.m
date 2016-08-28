@@ -22,6 +22,8 @@
 
 #import "PruductViewController.h"
 
+#import "HelpViewController.h"
+
 
 #import "PushViewController.h"
 
@@ -75,12 +77,12 @@
         });
     };
     
-    SettingItem *si4 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助"];
+    SettingItem *si4 = [SettingArrawItem itemWithIcon:@"MoreHelp" title:@"帮助" destArrawClass:[HelpViewController class]];
     
-    si4.option = ^{
-        NSLog(@"bangzhu");
-        
-    };
+//    si4.option = ^{
+//        NSLog(@"bangzhu");
+//        
+//    };
     
     SettingArrawItem *s6 = [SettingArrawItem itemWithIcon:@"MorePush" title:@"分享" destArrawClass:[TestSetViewController class]];
     SettingArrawItem *s7 = [SettingArrawItem itemWithIcon:@"MoreMessage" title:@"查看消息" destArrawClass:[TestSetViewController class]];
