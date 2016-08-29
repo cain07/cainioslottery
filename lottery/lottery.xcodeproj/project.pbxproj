@@ -16,6 +16,8 @@
 		046106131D714A0200199324 /* SettingLableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106121D714A0200199324 /* SettingLableItem.m */; };
 		046106171D71D60700199324 /* SaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106161D71D60700199324 /* SaveTool.m */; };
 		0461061A1D72912500199324 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046106191D72912500199324 /* HelpViewController.m */; };
+		0461061F1D7474DF00199324 /* ILAboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461061D1D7474DF00199324 /* ILAboutHeaderView.m */; };
+		046106201D7474DF00199324 /* ILAboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0461061E1D7474DF00199324 /* ILAboutHeaderView.xib */; };
 		A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40E05ED1D6C72C300A42BAC /* Main.storyboard */; };
 		A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F01D6C72E500A42BAC /* ViewController.m */; };
 		A40E05FA1D6E9CFF00A42BAC /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E05F91D6E9CFF00A42BAC /* SettingCell.m */; };
@@ -91,6 +93,9 @@
 		046106161D71D60700199324 /* SaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveTool.m; sourceTree = "<group>"; };
 		046106181D72912500199324 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		046106191D72912500199324 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		0461061C1D7474DF00199324 /* ILAboutHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILAboutHeaderView.h; sourceTree = "<group>"; };
+		0461061D1D7474DF00199324 /* ILAboutHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILAboutHeaderView.m; sourceTree = "<group>"; };
+		0461061E1D7474DF00199324 /* ILAboutHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILAboutHeaderView.xib; sourceTree = "<group>"; };
 		A40E05EE1D6C72C300A42BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40E05F01D6C72E500A42BAC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A40E05F81D6E9CFF00A42BAC /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
@@ -217,6 +222,17 @@
 				046106161D71D60700199324 /* SaveTool.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		0461061B1D7474DF00199324 /* AboutHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				0461061C1D7474DF00199324 /* ILAboutHeaderView.h */,
+				0461061D1D7474DF00199324 /* ILAboutHeaderView.m */,
+				0461061E1D7474DF00199324 /* ILAboutHeaderView.xib */,
+			);
+			name = AboutHeaderView;
+			path = "../../../../../../../../Desktop/0912-彩票第三天/代码/ItheimaLottery02-关于和分享/ItheimaLottery/Classes/Setting(设置)/View/AboutHeaderView";
 			sourceTree = "<group>";
 		};
 		A40E06091D6FE35400A42BAC /* Lib */ = {
@@ -571,6 +587,7 @@
 		A4D15B421D6C3A5500D4D938 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0461061B1D7474DF00199324 /* AboutHeaderView */,
 				A40E05F81D6E9CFF00A42BAC /* SettingCell.h */,
 				A40E05F91D6E9CFF00A42BAC /* SettingCell.m */,
 				A40E062F1D7035A500A42BAC /* ProductCell.h */,
@@ -710,6 +727,7 @@
 				A4F3B9C51D741FE7003F9269 /* f9_howto.html in Resources */,
 				A4F3B9CF1D741FE7003F9269 /* k3_howto.html in Resources */,
 				A4F3B9C31D741FE7003F9269 /* credit_help.html in Resources */,
+				046106201D7474DF00199324 /* ILAboutHeaderView.xib in Resources */,
 				A4F3B9C61D741FE7003F9269 /* gdy11_howto.html in Resources */,
 				A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */,
 				A4F3B9CD1D741FE7003F9269 /* jxy11_howto.html in Resources */,
@@ -750,6 +768,7 @@
 				A4D15B481D6C4CA500D4D938 /* SettingTableViewController.m in Sources */,
 				A40E062A1D702F0F00A42BAC /* SettingItem.m in Sources */,
 				A40E06121D6FE35400A42BAC /* MBProgressHUD.m in Sources */,
+				0461061F1D7474DF00199324 /* ILAboutHeaderView.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
 				A4F3B9A21D7417F5003F9269 /* HtmlViewController.m in Sources */,
 				A4F3B9E01D743989003F9269 /* ShareViewController.m in Sources */,
@@ -871,7 +890,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/lottery-Prefix.pch";
 				INFOPLIST_FILE = lottery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -889,7 +908,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/lottery-Prefix.pch";
 				INFOPLIST_FILE = lottery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cain.lottery;
 				PRODUCT_NAME = "$(TARGET_NAME)";

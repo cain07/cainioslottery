@@ -43,6 +43,14 @@
     return self;
 }
 
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    
+    self.tableView.backgroundView = nil;
+    
+    self.tableView.backgroundColor = ILColor(244, 243, 241);
+}
+
 //有多少组
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return self.dataList.count;

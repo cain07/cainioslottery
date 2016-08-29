@@ -119,4 +119,42 @@
     // Configure the view for the selected state
 }
 
+
+-(id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        // 237 233 218
+        
+        // 设置背景
+        [self setUpBg];
+        // 清空子视图的背景
+        [self setSubViews];
+        
+    }
+    
+    return self;
+}
+
+
+- (void)setUpBg
+{
+    // 设置背景图片
+    UIView *bg = [[UIView alloc] init];
+    bg.backgroundColor = [UIColor whiteColor];
+    self.backgroundView = bg;
+    
+    
+    // 设置选中的背景图片
+    UIView *selectedBg = [[UIView alloc] init];
+    selectedBg.backgroundColor = ILColor(237, 233, 218);
+    self.selectedBackgroundView = selectedBg;
+}
+
+- (void)setSubViews
+{
+    self.textLabel.backgroundColor = [UIColor clearColor];
+    self.detailTextLabel.backgroundColor = [UIColor clearColor];
+}
+
+
 @end
