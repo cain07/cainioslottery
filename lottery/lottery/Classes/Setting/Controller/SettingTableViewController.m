@@ -26,6 +26,9 @@
 
 
 #import "PushViewController.h"
+#import "ShareViewController.h"
+
+#import "AboutViewController.h"
 
 
 @interface SettingTableViewController()
@@ -84,10 +87,10 @@
 //        
 //    };
     
-    SettingArrawItem *s6 = [SettingArrawItem itemWithIcon:@"MorePush" title:@"分享" destArrawClass:[TestSetViewController class]];
+    SettingArrawItem *s6 = [SettingArrawItem itemWithIcon:@"MorePush" title:@"分享" destArrawClass:[ShareViewController class]];
     SettingArrawItem *s7 = [SettingArrawItem itemWithIcon:@"MoreMessage" title:@"查看消息" destArrawClass:[TestSetViewController class]];
     SettingArrawItem *s8 = [SettingArrawItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destArrawClass:[PruductViewController class]];
-    SettingArrawItem *s9 = [SettingArrawItem itemWithIcon:@"MoreAbout" title:@"关于" destArrawClass:[TestSetViewController class]];
+    SettingArrawItem *s9 = [SettingArrawItem itemWithIcon:@"MoreAbout" title:@"关于" destArrawClass:[AboutViewController class]];
     
     SettingGroup *group1 = [[SettingGroup alloc]init];
     group1.items = @[si3,si4,s6,s7,s8,s9];

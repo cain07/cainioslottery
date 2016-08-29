@@ -74,6 +74,8 @@
 		A4F3B9DB1D741FE7003F9269 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BE1D741FE7003F9269 /* x3d_howto.html */; };
 		A4F3B9DC1D741FE7003F9269 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BF1D741FE7003F9269 /* y11_howto.html */; };
 		A4F3B9DD1D741FE7003F9269 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9C01D741FE7003F9269 /* znzh.html */; };
+		A4F3B9E01D743989003F9269 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F3B9DF1D743989003F9269 /* ShareViewController.m */; };
+		A4F3B9E31D7441EF003F9269 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F3B9E21D7441EF003F9269 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -176,6 +178,10 @@
 		A4F3B9BE1D741FE7003F9269 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
 		A4F3B9BF1D741FE7003F9269 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
 		A4F3B9C01D741FE7003F9269 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		A4F3B9DE1D743989003F9269 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		A4F3B9DF1D743989003F9269 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		A4F3B9E11D7441EF003F9269 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		A4F3B9E21D7441EF003F9269 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +202,10 @@
 				046106091D711FC000199324 /* PushViewController.m */,
 				0461060E1D7147A400199324 /* SorceShowViewController.h */,
 				0461060F1D7147A400199324 /* SorceShowViewController.m */,
+				A4F3B9DE1D743989003F9269 /* ShareViewController.h */,
+				A4F3B9DF1D743989003F9269 /* ShareViewController.m */,
+				A4F3B9E11D7441EF003F9269 /* AboutViewController.h */,
+				A4F3B9E21D7441EF003F9269 /* AboutViewController.m */,
 			);
 			path = Push;
 			sourceTree = "<group>";
@@ -733,6 +743,7 @@
 				04535AEF1D6600BA000E69CB /* LTTabBarButton.m in Sources */,
 				A40E06311D7035A500A42BAC /* ProductCell.m in Sources */,
 				A40E06071D6EDAF200A42BAC /* TestSetViewController.m in Sources */,
+				A4F3B9E31D7441EF003F9269 /* AboutViewController.m in Sources */,
 				A4D15B3E1D6C038F00D4D938 /* UIImage+Tools.m in Sources */,
 				0461061A1D72912500199324 /* HelpViewController.m in Sources */,
 				A47967181D65696D00F3620B /* AppDelegate.m in Sources */,
@@ -741,6 +752,7 @@
 				A40E06121D6FE35400A42BAC /* MBProgressHUD.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
 				A4F3B9A21D7417F5003F9269 /* HtmlViewController.m in Sources */,
+				A4F3B9E01D743989003F9269 /* ShareViewController.m in Sources */,
 				A4F3B99F1D73DD66003F9269 /* Helpbean.m in Sources */,
 				046106131D714A0200199324 /* SettingLableItem.m in Sources */,
 				0461060A1D711FC000199324 /* PushViewController.m in Sources */,

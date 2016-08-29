@@ -14,6 +14,7 @@ typedef void (^SettingItemOption)();
 
 @property (nonatomic,copy)NSString *title;
 @property (nonatomic,copy)NSString *icon;
+@property (nonatomic,copy)NSString *subtitle;
 
 @property (nonatomic,copy) SettingItemOption  option;
 

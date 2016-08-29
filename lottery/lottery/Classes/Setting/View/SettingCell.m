@@ -73,6 +73,7 @@
     self.imageView.image = [UIImage imageNamed:_item.icon];
     self.textLabel.text = _item.title;
 
+    self.detailTextLabel.text = _item.subtitle;
 }
 
 -(void) setUpAccessory{
@@ -102,7 +103,7 @@
     SettingCell *cell = [tableview dequeueReusableCellWithIdentifier:ID];
     
     if (cell == nil) {
-        cell = [[SettingCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+        cell = [[SettingCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ID];
     }
 
     return cell;
