@@ -18,30 +18,77 @@
 #import "SettingArrawItem.h"
 #import "SettingSwithItem.h"
 
+#import "Helpbean.h"
+#import "HtmlViewController.h"
+
+#import "LTNavigationController.h"
+
 @interface HelpViewController ()
+
+@property (nonatomic,strong) NSMutableArray *htmls;
 
 @end
 
 @implementation HelpViewController
 
+-(NSMutableArray *)htmls{
+    
+    
+    if (_htmls == nil) {
+        _htmls = [NSMutableArray array];
+    }
+   
+    NSString *file = [[NSBundle mainBundle]pathForResource:@"help.json" ofType:nil];
+    NSData *data = [NSData dataWithContentsOfFile:file];
+    
+    NSMutableArray *jsonarray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+    
+    
+    for (NSDictionary *dict in jsonarray) {
+        Helpbean *bean = [Helpbean HelpWithDict:dict];
+        [_htmls addObject:bean];
+    }
+    
+    NSLog(@"%@",_htmls);
+    
+    return _htmls;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self group0];
+    
 }
 
 -(void)group0{
-    SettingArrawItem *si1 = [SettingArrawItem itemWithIcon:nil title:@"开奖" destArrawClass:nil];
-    SettingItem *si2 = [SettingArrawItem itemWithIcon:nil title:@"中奖"];
     
-    
-    SettingItem *s3 = [SettingArrawItem itemWithIcon:nil title:@"比分" destArrawClass:nil];
-    SettingItem *s4 = [SettingArrawItem itemWithIcon:nil title:@"中奖"];
+    NSMutableArray *items = [NSMutableArray array];
+    for (Helpbean *bean in self.htmls) {
+        NSLog(@"%@---%@--",bean.title,bean.html);
+        SettingArrawItem *item = [SettingArrawItem itemWithIcon:nil title:bean.title destArrawClass:nil];
+        [items addObject:item];
+    }
     
     SettingGroup *group0 = [[SettingGroup alloc]init];
-    group0.items = @[si1,si2,s3,s4];
+    group0.items = items;
     
     [self.dataList addObject:group0];
-    
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    Helpbean *bean = self.htmls[indexPath.row];
+    
+    HtmlViewController *htmlctl = [[HtmlViewController alloc]init];
+    
+    htmlctl.help = bean;
+    htmlctl.title = bean.title;
+    
+    LTNavigationController *nct = [[LTNavigationController alloc] initWithRootViewController:htmlctl];
+    
+    [self presentViewController:nct animated:YES completion:nil];
+}
+
+
 
 @end

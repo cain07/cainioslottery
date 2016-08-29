@@ -43,6 +43,37 @@
 		A4D15B481D6C4CA500D4D938 /* SettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D15B471D6C4CA500D4D938 /* SettingTableViewController.m */; };
 		A4ED17781D6AB4A50041EF99 /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */; };
 		A4ED177B1D6AF0ED0041EF99 /* LTTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A4ED177A1D6AF0ED0041EF99 /* LTTitleButton.m */; };
+		A4F3B99F1D73DD66003F9269 /* Helpbean.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F3B99E1D73DD66003F9269 /* Helpbean.m */; };
+		A4F3B9A21D7417F5003F9269 /* HtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F3B9A11D7417F5003F9269 /* HtmlViewController.m */; };
+		A4F3B9C11D741FE7003F9269 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9A41D741FE7003F9269 /* bjdc_howto.html */; };
+		A4F3B9C21D741FE7003F9269 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9A51D741FE7003F9269 /* coupon_help.html */; };
+		A4F3B9C31D741FE7003F9269 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9A61D741FE7003F9269 /* credit_help.html */; };
+		A4F3B9C41D741FE7003F9269 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9A71D741FE7003F9269 /* dlt_howto.html */; };
+		A4F3B9C51D741FE7003F9269 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9A81D741FE7003F9269 /* f9_howto.html */; };
+		A4F3B9C61D741FE7003F9269 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9A91D741FE7003F9269 /* gdy11_howto.html */; };
+		A4F3B9C71D741FE7003F9269 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9AA1D741FE7003F9269 /* group_record.html */; };
+		A4F3B9C81D741FE7003F9269 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9AB1D741FE7003F9269 /* help.html */; };
+		A4F3B9C91D741FE7003F9269 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9AC1D741FE7003F9269 /* helpGroupBuy.html */; };
+		A4F3B9CA1D741FE7003F9269 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9AD1D741FE7003F9269 /* jclq_howto.html */; };
+		A4F3B9CB1D741FE7003F9269 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9AE1D741FE7003F9269 /* jczq_howto.html */; };
+		A4F3B9CC1D741FE7003F9269 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9AF1D741FE7003F9269 /* jxssc_howto.html */; };
+		A4F3B9CD1D741FE7003F9269 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B01D741FE7003F9269 /* jxy11_howto.html */; };
+		A4F3B9CE1D741FE7003F9269 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B11D741FE7003F9269 /* k2_howto.html */; };
+		A4F3B9CF1D741FE7003F9269 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B21D741FE7003F9269 /* k3_howto.html */; };
+		A4F3B9D01D741FE7003F9269 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B31D741FE7003F9269 /* kl8_howto.html */; };
+		A4F3B9D11D741FE7003F9269 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B41D741FE7003F9269 /* lk11_howto.html */; };
+		A4F3B9D21D741FE7003F9269 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B51D741FE7003F9269 /* networkconnectedfailed.html */; };
+		A4F3B9D31D741FE7003F9269 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B61D741FE7003F9269 /* pl3_howto.html */; };
+		A4F3B9D41D741FE7003F9269 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B71D741FE7003F9269 /* pl5_howto.html */; };
+		A4F3B9D51D741FE7003F9269 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B81D741FE7003F9269 /* qlc_howto.html */; };
+		A4F3B9D61D741FE7003F9269 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9B91D741FE7003F9269 /* qxc_howto.html */; };
+		A4F3B9D71D741FE7003F9269 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BA1D741FE7003F9269 /* rule.css */; };
+		A4F3B9D81D741FE7003F9269 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BB1D741FE7003F9269 /* sfc_howto.html */; };
+		A4F3B9D91D741FE7003F9269 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BC1D741FE7003F9269 /* ssc_howto.html */; };
+		A4F3B9DA1D741FE7003F9269 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BD1D741FE7003F9269 /* ssq_howto.html */; };
+		A4F3B9DB1D741FE7003F9269 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BE1D741FE7003F9269 /* x3d_howto.html */; };
+		A4F3B9DC1D741FE7003F9269 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9BF1D741FE7003F9269 /* y11_howto.html */; };
+		A4F3B9DD1D741FE7003F9269 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = A4F3B9C01D741FE7003F9269 /* znzh.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +143,39 @@
 		A4ED17771D6AB4A50041EF99 /* LTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavigationController.m; sourceTree = "<group>"; };
 		A4ED17791D6AF0ED0041EF99 /* LTTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTitleButton.h; sourceTree = "<group>"; };
 		A4ED177A1D6AF0ED0041EF99 /* LTTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTitleButton.m; sourceTree = "<group>"; };
+		A4F3B99D1D73DD66003F9269 /* Helpbean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpbean.h; sourceTree = "<group>"; };
+		A4F3B99E1D73DD66003F9269 /* Helpbean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpbean.m; sourceTree = "<group>"; };
+		A4F3B9A01D7417F5003F9269 /* HtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlViewController.h; sourceTree = "<group>"; };
+		A4F3B9A11D7417F5003F9269 /* HtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlViewController.m; sourceTree = "<group>"; };
+		A4F3B9A41D741FE7003F9269 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		A4F3B9A51D741FE7003F9269 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		A4F3B9A61D741FE7003F9269 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		A4F3B9A71D741FE7003F9269 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		A4F3B9A81D741FE7003F9269 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		A4F3B9A91D741FE7003F9269 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		A4F3B9AA1D741FE7003F9269 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		A4F3B9AB1D741FE7003F9269 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		A4F3B9AC1D741FE7003F9269 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		A4F3B9AD1D741FE7003F9269 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		A4F3B9AE1D741FE7003F9269 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		A4F3B9AF1D741FE7003F9269 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		A4F3B9B01D741FE7003F9269 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		A4F3B9B11D741FE7003F9269 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		A4F3B9B21D741FE7003F9269 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		A4F3B9B31D741FE7003F9269 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		A4F3B9B41D741FE7003F9269 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		A4F3B9B51D741FE7003F9269 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		A4F3B9B61D741FE7003F9269 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		A4F3B9B71D741FE7003F9269 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		A4F3B9B81D741FE7003F9269 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		A4F3B9B91D741FE7003F9269 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		A4F3B9BA1D741FE7003F9269 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		A4F3B9BB1D741FE7003F9269 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		A4F3B9BC1D741FE7003F9269 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		A4F3B9BD1D741FE7003F9269 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		A4F3B9BE1D741FE7003F9269 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		A4F3B9BF1D741FE7003F9269 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		A4F3B9C01D741FE7003F9269 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +234,8 @@
 			children = (
 				A40E06141D6FE4D400A42BAC /* PruductViewController.h */,
 				A40E06151D6FE4D400A42BAC /* PruductViewController.m */,
+				A4F3B9A01D7417F5003F9269 /* HtmlViewController.h */,
+				A4F3B9A11D7417F5003F9269 /* HtmlViewController.m */,
 			);
 			path = Pruduct;
 			sourceTree = "<group>";
@@ -245,6 +311,7 @@
 		A47967131D65696D00F3620B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A4F3B9A31D741FE7003F9269 /* Html */,
 				A40E06171D702E6200A42BAC /* Data */,
 				A47967141D65696D00F3620B /* main.m */,
 			);
@@ -484,6 +551,7 @@
 		A4D15B411D6C3A5500D4D938 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4F3B99C1D73DD3E003F9269 /* Help */,
 				A40E061E1D702F0F00A42BAC /* products */,
 				A40E061F1D702F0F00A42BAC /* Setting */,
 			);
@@ -500,6 +568,51 @@
 				A40E06321D7035DA00A42BAC /* ProductCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A4F3B99C1D73DD3E003F9269 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3B99D1D73DD66003F9269 /* Helpbean.h */,
+				A4F3B99E1D73DD66003F9269 /* Helpbean.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		A4F3B9A31D741FE7003F9269 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3B9A41D741FE7003F9269 /* bjdc_howto.html */,
+				A4F3B9A51D741FE7003F9269 /* coupon_help.html */,
+				A4F3B9A61D741FE7003F9269 /* credit_help.html */,
+				A4F3B9A71D741FE7003F9269 /* dlt_howto.html */,
+				A4F3B9A81D741FE7003F9269 /* f9_howto.html */,
+				A4F3B9A91D741FE7003F9269 /* gdy11_howto.html */,
+				A4F3B9AA1D741FE7003F9269 /* group_record.html */,
+				A4F3B9AB1D741FE7003F9269 /* help.html */,
+				A4F3B9AC1D741FE7003F9269 /* helpGroupBuy.html */,
+				A4F3B9AD1D741FE7003F9269 /* jclq_howto.html */,
+				A4F3B9AE1D741FE7003F9269 /* jczq_howto.html */,
+				A4F3B9AF1D741FE7003F9269 /* jxssc_howto.html */,
+				A4F3B9B01D741FE7003F9269 /* jxy11_howto.html */,
+				A4F3B9B11D741FE7003F9269 /* k2_howto.html */,
+				A4F3B9B21D741FE7003F9269 /* k3_howto.html */,
+				A4F3B9B31D741FE7003F9269 /* kl8_howto.html */,
+				A4F3B9B41D741FE7003F9269 /* lk11_howto.html */,
+				A4F3B9B51D741FE7003F9269 /* networkconnectedfailed.html */,
+				A4F3B9B61D741FE7003F9269 /* pl3_howto.html */,
+				A4F3B9B71D741FE7003F9269 /* pl5_howto.html */,
+				A4F3B9B81D741FE7003F9269 /* qlc_howto.html */,
+				A4F3B9B91D741FE7003F9269 /* qxc_howto.html */,
+				A4F3B9BA1D741FE7003F9269 /* rule.css */,
+				A4F3B9BB1D741FE7003F9269 /* sfc_howto.html */,
+				A4F3B9BC1D741FE7003F9269 /* ssc_howto.html */,
+				A4F3B9BD1D741FE7003F9269 /* ssq_howto.html */,
+				A4F3B9BE1D741FE7003F9269 /* x3d_howto.html */,
+				A4F3B9BF1D741FE7003F9269 /* y11_howto.html */,
+				A4F3B9C01D741FE7003F9269 /* znzh.html */,
+			);
+			path = Html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,13 +677,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47967201D65696D00F3620B /* Assets.xcassets in Resources */,
+				A4F3B9C41D741FE7003F9269 /* dlt_howto.html in Resources */,
+				A4F3B9D11D741FE7003F9269 /* lk11_howto.html in Resources */,
 				A40E06331D7035DA00A42BAC /* ProductCell.xib in Resources */,
 				A40E061B1D702E6200A42BAC /* cywt.json in Resources */,
+				A4F3B9CB1D741FE7003F9269 /* jczq_howto.html in Resources */,
+				A4F3B9D91D741FE7003F9269 /* ssc_howto.html in Resources */,
+				A4F3B9C11D741FE7003F9269 /* bjdc_howto.html in Resources */,
+				A4F3B9DB1D741FE7003F9269 /* x3d_howto.html in Resources */,
+				A4F3B9C81D741FE7003F9269 /* help.html in Resources */,
+				A4F3B9C71D741FE7003F9269 /* group_record.html in Resources */,
+				A4F3B9D01D741FE7003F9269 /* kl8_howto.html in Resources */,
+				A4F3B9D41D741FE7003F9269 /* pl5_howto.html in Resources */,
 				A40E061D1D702E6200A42BAC /* products.json in Resources */,
+				A4F3B9CA1D741FE7003F9269 /* jclq_howto.html in Resources */,
+				A4F3B9D71D741FE7003F9269 /* rule.css in Resources */,
+				A4F3B9CC1D741FE7003F9269 /* jxssc_howto.html in Resources */,
 				A40E06111D6FE35400A42BAC /* MBProgressHUD.bundle in Resources */,
 				A40E05EF1D6C72C300A42BAC /* Main.storyboard in Resources */,
 				A40E061C1D702E6200A42BAC /* help.json in Resources */,
+				A4F3B9D31D741FE7003F9269 /* pl3_howto.html in Resources */,
+				A4F3B9C51D741FE7003F9269 /* f9_howto.html in Resources */,
+				A4F3B9CF1D741FE7003F9269 /* k3_howto.html in Resources */,
+				A4F3B9C31D741FE7003F9269 /* credit_help.html in Resources */,
+				A4F3B9C61D741FE7003F9269 /* gdy11_howto.html in Resources */,
 				A40E06081D6EDAF200A42BAC /* TestSetViewController.xib in Resources */,
+				A4F3B9CD1D741FE7003F9269 /* jxy11_howto.html in Resources */,
+				A4F3B9D21D741FE7003F9269 /* networkconnectedfailed.html in Resources */,
+				A4F3B9D51D741FE7003F9269 /* qlc_howto.html in Resources */,
+				A4F3B9CE1D741FE7003F9269 /* k2_howto.html in Resources */,
+				A4F3B9D61D741FE7003F9269 /* qxc_howto.html in Resources */,
+				A4F3B9DD1D741FE7003F9269 /* znzh.html in Resources */,
+				A4F3B9DA1D741FE7003F9269 /* ssq_howto.html in Resources */,
+				A4F3B9DC1D741FE7003F9269 /* y11_howto.html in Resources */,
+				A4F3B9D81D741FE7003F9269 /* sfc_howto.html in Resources */,
+				A4F3B9C21D741FE7003F9269 /* coupon_help.html in Resources */,
+				A4F3B9C91D741FE7003F9269 /* helpGroupBuy.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +740,8 @@
 				A40E062A1D702F0F00A42BAC /* SettingItem.m in Sources */,
 				A40E06121D6FE35400A42BAC /* MBProgressHUD.m in Sources */,
 				A40E05F11D6C72E500A42BAC /* ViewController.m in Sources */,
+				A4F3B9A21D7417F5003F9269 /* HtmlViewController.m in Sources */,
+				A4F3B99F1D73DD66003F9269 /* Helpbean.m in Sources */,
 				046106131D714A0200199324 /* SettingLableItem.m in Sources */,
 				0461060A1D711FC000199324 /* PushViewController.m in Sources */,
 				A40E06281D702F0F00A42BAC /* SettingArrawItem.m in Sources */,
