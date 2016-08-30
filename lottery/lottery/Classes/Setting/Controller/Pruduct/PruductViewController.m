@@ -20,7 +20,9 @@
 
 @implementation PruductViewController
 
-static NSString * const reuseIdentifier = @"Cell";
+
+
+static NSString *ID = @"product";
 
 -(NSMutableArray *)products{
     if (_products == nil) {
@@ -58,9 +60,10 @@ static NSString * const reuseIdentifier = @"Cell";
     
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
+
     
     UINib *xib = [UINib nibWithNibName:@"ProductCell" bundle:nil];
-    [self.collectionView registerNib:xib forCellWithReuseIdentifier:reuseIdentifier];
+    [self.collectionView registerNib:xib forCellWithReuseIdentifier:ID];
     // Register cell classes
     //[self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
@@ -94,7 +97,9 @@ static NSString * const reuseIdentifier = @"Cell";
     
     // Configure the cell
     
-    ProductCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    
+    
+    ProductCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
     
     Product *product = self.products[indexPath.item];
     
